@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment7.Views.Page4"
+             Title="CALLS">
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"></ColumnDefinition>
+                <ColumnDefinition Width="190"></ColumnDefinition>
+                <ColumnDefinition Width="160"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Image Source="dpss.png" Grid.Row="0" Grid.Column="0"/>
+            <Label Text="My Girl." Grid.Row="0" Grid.Column="1" />
+            <Label Text="Yesterday, 19:21" TextColor="Black" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+            <ImageButton Source="videocall.png" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="Center" HeightRequest="30"/>
+
+            <Image Source="dpss.png" Grid.Row="1" Grid.Column="0"/>
+            <Label Text="Jules." Grid.Row="1" Grid.Column="1" />
+            <Label Text="25 November, 18:53" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+            <ImageButton Source="voicecall.png" Grid.Row="1" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="Center" HeightRequest="30"/>
+
+            <Image Source="dpss.png" Grid.Row="2" Grid.Column="0"/>
+            <Label Text="Rio." Grid.Row="2" Grid.Column="1"/>
+            <Label Text="24 November, 18:40" TextColor="Black" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+            <ImageButton Source="voicecall.png" Grid.Row="2" Grid.Column="2" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="Center" HeightRequest="30"/>
+
+        </Grid>
+
+
+    </ContentPage.Content>
+</ContentPage>

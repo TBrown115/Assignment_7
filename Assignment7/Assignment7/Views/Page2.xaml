@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment7.Views.Page2"
+             Title="CHATS">
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="83"></ColumnDefinition>
+                <ColumnDefinition Width="225"></ColumnDefinition>
+                <ColumnDefinition Width="83"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Image Source="dpss.png" Grid.Row="0" Grid.Column="0"  />
+            <Label Text="My Girl." Grid.Row="0" Grid.Column="1" />
+            <Label Text="I'll see you over the weekend, babe." TextColor="Black" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+            <Label Text="14:00" TextColor="Black" Grid.Row="0" Grid.Column="2" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+
+
+            <Image Source="dpss.png" Grid.Row="1" Grid.Column="0" />
+            <Label Text="Jules." Grid.Row="1" Grid.Column="1" />
+            <Label Text="Wanna play some Tekken, fam?" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+            <Label Text="02:00" TextColor="Black" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+
+
+            <Image Source="dpss.png" Grid.Row="2" Grid.Column="0" />
+            <Label Text="Rio." Grid.Row="2" Grid.Column="1" />
+            <Label Text="Are we playing Warzone tonight, bud?" TextColor="Black" Grid.Row="2" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+            <Label Text="10:29" TextColor="Black" Grid.Row="2" Grid.Column="2" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
